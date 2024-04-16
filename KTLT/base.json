@@ -6,6 +6,6 @@
         "base_url": "https://gorest.co.in"
     },
     "environment": {
-        "env": "prod"
+        "env": "None"
     }
 }
