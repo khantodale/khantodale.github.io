@@ -10,7 +10,6 @@ def test_post():
     print(response.status_code)
     if response.status_code == 201 :
         re_json = response.json()
-        global id
         id = re_json["id"]
         print(re_json)
         print("API success")
